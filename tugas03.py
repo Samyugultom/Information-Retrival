@@ -100,7 +100,7 @@ for i in range(1, len(relevant_docs)+1):
         print(f"score antara Obj {i} dan Obj {j} : {dsc:.2f}")
 
 
-# Metode Overlap Similarity
+# Soal 3 Metode Overlap Similarity
 print("\nRetrieved object (R) dengan metode Overlap Similarity")
 for i in range(1, len(relevant_docs)+1):
     for j in range(i+1, len(relevant_docs)+1):
